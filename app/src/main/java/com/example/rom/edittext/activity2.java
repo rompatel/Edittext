@@ -15,6 +15,6 @@ TextView act;
         act=(TextView)findViewById(R.id.act);
         act.setText(getIntent().getStringExtra("ROM"));
         int i=getIntent().getLongExtra("data");
-
+//practice
     }
 }
